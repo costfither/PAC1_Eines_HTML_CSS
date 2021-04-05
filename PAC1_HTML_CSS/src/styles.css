@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body{
+  margin: 0;
+  font-family: 'Noto Serif',serif;
+  font-size: 100%;
+  color:rgb(28,28,28);
+  line-height: 1.3;
+  background: rgb(232, 232, 232);
+  border: solid black 1px;
+  align-items: center;
+}
+
+/* TIPOGRAFIA */
+a{
+  text-decoration: none;
+  color:  #9b1700;
+}
+a:hover {
+  color:  #1c1c1c
+}
+h2,h3,header,footer,nav{
+  font-family: 'Open Sans', sans-serif;
+}
+h3{
+  font-weight: 700;
+}
+/* HEADER */
+header.index{
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  margin-top: 5vh;
+}
+
+/* INDEX */
+main.index{
+  margin: 0;
+  align-items: center;
+}
+article.presentacio{
+  align-items: center;
+  width: 600px;
+}
+nav.index{
+  display: flex;
+  
+}
+nav.index div{
+  margin:50px;
+}
